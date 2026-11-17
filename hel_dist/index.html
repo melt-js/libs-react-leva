@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>libs-react-leva</title>
+    <!--
+      react / react-dom 被 external 成全局，独立访问本页时由这里提供运行时。
+      data-helappend="0"：宿主通过 hel 解析本页时跳过该脚本，改用宿主注入的那一份 react。
+    -->
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"
+    ></script>
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"
+    ></script>
+    <script type="module" crossorigin src="/libs-react-leva/hel_dist/assets/index-DB_gG_F_.js"></script>
+    <link rel="modulepreload" crossorigin href="/libs-react-leva/hel_dist/assets/preload-helper-CDw5FbnC.js">
+    <link rel="modulepreload" crossorigin href="/libs-react-leva/hel_dist/assets/shared-runtime-CXW2T-Bb.js">
+    <link rel="modulepreload" crossorigin href="/libs-react-leva/hel_dist/assets/vendor-_fNHGubM.js">
+    <link rel="stylesheet" crossorigin href="/libs-react-leva/hel_dist/assets/index-6zMzuAbd.css">
+  </head>
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
