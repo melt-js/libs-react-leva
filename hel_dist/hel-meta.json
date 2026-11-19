@@ -6,7 +6,7 @@
     "online_version": "2026.11.16-1",
     "build_version": "2026.11.16-1",
     "platform": "unpkg",
-    "create_at": "2026-11-17T07:05:20.566Z"
+    "create_at": "2026-11-19T11:37:07.751Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
@@ -23,10 +23,10 @@
         "/libs-react-leva/hel_dist/assets/index-6zMzuAbd.css"
       ],
       "chunkJsSrcList": [
-        "/libs-react-leva/hel_dist/assets/index-DB_gG_F_.js",
+        "/libs-react-leva/hel_dist/assets/index-BW9nwCxm.js",
         "/libs-react-leva/hel_dist/assets/preload-helper-CDw5FbnC.js",
-        "/libs-react-leva/hel_dist/assets/shared-runtime-CXW2T-Bb.js",
-        "/libs-react-leva/hel_dist/assets/vendor-_fNHGubM.js"
+        "/libs-react-leva/hel_dist/assets/shared-runtime-DyK5vJAm.js",
+        "/libs-react-leva/hel_dist/assets/vendor-BC9dU10f.js"
       ],
       "staticCssSrcList": [],
       "staticJsSrcList": [
@@ -54,7 +54,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/libs-react-leva/hel_dist/assets/index-DB_gG_F_.js",
+            "src": "/libs-react-leva/hel_dist/assets/index-BW9nwCxm.js",
             "type": "module",
             "crossorigin": ""
           }
@@ -72,7 +72,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/libs-react-leva/hel_dist/assets/shared-runtime-CXW2T-Bb.js",
+            "href": "/libs-react-leva/hel_dist/assets/shared-runtime-DyK5vJAm.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -81,7 +81,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/libs-react-leva/hel_dist/assets/vendor-_fNHGubM.js",
+            "href": "/libs-react-leva/hel_dist/assets/vendor-BC9dU10f.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -99,15 +99,15 @@
       "bodyAssetList": [],
       "otherSrcList": [
         "/libs-react-leva/hel_dist/assets/index-6zMzuAbd.css.gz",
-        "/libs-react-leva/hel_dist/assets/index-DB_gG_F_.js.gz",
-        "/libs-react-leva/hel_dist/assets/vendor-_fNHGubM.js.gz",
+        "/libs-react-leva/hel_dist/assets/index-BW9nwCxm.js.gz",
+        "/libs-react-leva/hel_dist/assets/vendor-BC9dU10f.js.gz",
         "/libs-react-leva/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>libs-react-leva</title>\n    <!--\n      react / react-dom 被 external 成全局，独立访问本页时由这里提供运行时。\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，改用宿主注入的那一份 react。\n    -->\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/react@18.3.1/umd/react.production.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js\"\n    ></script>\n    <script type=\"module\" crossorigin src=\"/libs-react-leva/hel_dist/assets/index-DB_gG_F_.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/libs-react-leva/hel_dist/assets/preload-helper-CDw5FbnC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/libs-react-leva/hel_dist/assets/shared-runtime-CXW2T-Bb.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/libs-react-leva/hel_dist/assets/vendor-_fNHGubM.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/libs-react-leva/hel_dist/assets/index-6zMzuAbd.css\">\n  </head>\n  <body>\n    <div id=\"container\"></div>\n  </body>\n</html>\n",
-    "create_at": "2026-11-17T07:05:20.566Z",
+    "html_content": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>libs-react-leva</title>\n    <!--\n      react / react-dom 被 external 成全局，独立访问本页时由这里提供运行时。\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，改用宿主注入的那一份 react。\n    -->\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/react@18.3.1/umd/react.production.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js\"\n    ></script>\n    <script type=\"module\" crossorigin src=\"/libs-react-leva/hel_dist/assets/index-BW9nwCxm.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/libs-react-leva/hel_dist/assets/preload-helper-CDw5FbnC.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/libs-react-leva/hel_dist/assets/shared-runtime-DyK5vJAm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/libs-react-leva/hel_dist/assets/vendor-BC9dU10f.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/libs-react-leva/hel_dist/assets/index-6zMzuAbd.css\">\n  </head>\n  <body>\n    <div id=\"container\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-19T11:37:07.751Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
