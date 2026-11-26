@@ -17,6 +17,10 @@ const lib = exposeLib(LIB_NAME);
 const DownloadExampleButton = lib.DownloadExampleButton;
 const PropsPanel = lib.PropsPanel;
 const PropsPlayground = lib.PropsPlayground;
+const CodePlayground = lib.CodePlayground;
+const CodePlaygroundDialog = lib.CodePlaygroundDialog;
+const CodePlaygroundEditor = lib.CodePlaygroundEditor;
+const CodePlaygroundRunner = lib.CodePlaygroundRunner;
 const ScreenfullButton = lib.ScreenfullButton;
 const DemoToolbar = lib.DemoToolbar;
 const DemoStage = lib.DemoStage;
@@ -24,4 +28,4 @@ const ComponentDocs = lib.ComponentDocs;
 const SplitPane = lib.SplitPane;
 const DemoTabs = lib.DemoTabs;
 
-export { ComponentDocs, DemoStage, DemoTabs, DemoToolbar, DownloadExampleButton, PropsPanel, PropsPlayground, ScreenfullButton, SplitPane, lib as default, lib };
+export { CodePlayground, CodePlaygroundDialog, CodePlaygroundEditor, CodePlaygroundRunner, ComponentDocs, DemoStage, DemoTabs, DemoToolbar, DownloadExampleButton, PropsPanel, PropsPlayground, ScreenfullButton, SplitPane, lib as default, lib };

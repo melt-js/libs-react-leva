@@ -21,6 +21,10 @@
 	const DownloadExampleButton = lib.DownloadExampleButton;
 	const PropsPanel = lib.PropsPanel;
 	const PropsPlayground = lib.PropsPlayground;
+	const CodePlayground = lib.CodePlayground;
+	const CodePlaygroundDialog = lib.CodePlaygroundDialog;
+	const CodePlaygroundEditor = lib.CodePlaygroundEditor;
+	const CodePlaygroundRunner = lib.CodePlaygroundRunner;
 	const ScreenfullButton = lib.ScreenfullButton;
 	const DemoToolbar = lib.DemoToolbar;
 	const DemoStage = lib.DemoStage;
@@ -28,6 +32,10 @@
 	const SplitPane = lib.SplitPane;
 	const DemoTabs = lib.DemoTabs;
 
+	exports.CodePlayground = CodePlayground;
+	exports.CodePlaygroundDialog = CodePlaygroundDialog;
+	exports.CodePlaygroundEditor = CodePlaygroundEditor;
+	exports.CodePlaygroundRunner = CodePlaygroundRunner;
 	exports.ComponentDocs = ComponentDocs;
 	exports.DemoStage = DemoStage;
 	exports.DemoTabs = DemoTabs;
